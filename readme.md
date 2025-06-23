@@ -86,7 +86,9 @@ bash --version      # Should be 4.0+
 
 ### Quick Install (Recommended)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Ishan0121/phantom-dlp/main/install.sh | bash
+curl -O https://raw.githubusercontent.com/Ishan0121/phantom-dlp/main/install.sh
+chmod +x install.sh
+./install.sh
 ```
 
 ### Manual Installation
